@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: #2D25A0;
+    align-items: center;
+    
+}
+/* navbar style  */
+nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar li{
+    list-style: none;
+    margin: 4px;
+    padding: 10px;
+
+}
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+.btn{
+  text-decoration: none;
+  color: white;
+  background-color: #E02C6D;  
+  padding: 5px 20px;
+ 
+}
+.login{
+    float: right;
+    margin: 20px;
+}  
+.header-image img{
+    width: 556.01px;
+    height: 438px;
+}
+/* Header Item  */
+.header-div{
+    display: flex;
+    justify-content: center;
+    grid-gap: 50px;
+    align-items: center;
+
+}
+.header-text{
+    color:white;
+
+}
+
+/* Main section  */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.player-section{
+    display: flex; 
+    grid-gap: 25px; 
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.player img{
+    width: 300px;
+    height: 256px ;
+}
+.player{
+    height: 474px;
+    width: 330px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgb(138, 138, 137);
+}
+.match img{
+    width: 567px;
+    height: 427px;
+}
+
+.second-section{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content:center; 
+    align-items: center;
+    
+   
+}
+
